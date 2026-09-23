@@ -1,3 +1,6 @@
 #!/bin/bash
 export LC_ALL=C
-cut -f1 | sort | uniq -c | sort -rn | head -11 | cut -c9-
+cut -f1 | sort | uniq -c | sort -rn | head -11 | while read -r count host
+do
+    echo "$host"
+done
