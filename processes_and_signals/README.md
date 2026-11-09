@@ -6,3 +6,4 @@ Shell scripts covering Linux processes, PIDs and signals.
 | --- | --- |
 | `0-what-is-my-pid` | Displays its own PID |
 | `1-list_your_processes` | Displays all running processes in a user-oriented format with their hierarchy |
+| `2-show_your_bash_pid` | Displays the processes whose lines contain the word `bash` |
