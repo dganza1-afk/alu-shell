@@ -11,3 +11,5 @@ Shell scripts covering Linux processes, PIDs and signals.
 | `4-to_infinity_and_beyond` | Displays `To infinity and beyond` indefinitely, sleeping 2 seconds between lines |
 | `5-dont_stop_me_now` | Stops the `4-to_infinity_and_beyond` process using `kill` |
 | `6-stop_me_if_you_can` | Stops the `4-to_infinity_and_beyond` process without using `kill` or `killall` |
+| `7-highlander` | Displays `To infinity and beyond` indefinitely and `I am invincible!!!` when receiving `SIGTERM` |
+| `67-stop_me_if_you_can` | Sends `SIGTERM` to the `7-highlander` process |
