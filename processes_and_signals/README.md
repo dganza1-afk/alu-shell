@@ -10,3 +10,4 @@ Shell scripts covering Linux processes, PIDs and signals.
 | `3-show_your_bash_pid_made_easy` | Displays the PID and name of processes whose name contains `bash`, without using `ps` |
 | `4-to_infinity_and_beyond` | Displays `To infinity and beyond` indefinitely, sleeping 2 seconds between lines |
 | `5-dont_stop_me_now` | Stops the `4-to_infinity_and_beyond` process using `kill` |
+| `6-stop_me_if_you_can` | Stops the `4-to_infinity_and_beyond` process without using `kill` or `killall` |
