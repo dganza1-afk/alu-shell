@@ -13,3 +13,4 @@ Shell scripts covering Linux processes, PIDs and signals.
 | `6-stop_me_if_you_can` | Stops the `4-to_infinity_and_beyond` process without using `kill` or `killall` |
 | `7-highlander` | Displays `To infinity and beyond` indefinitely and `I am invincible!!!` when receiving `SIGTERM` |
 | `67-stop_me_if_you_can` | Sends `SIGTERM` to the `7-highlander` process |
+| `8-beheaded_process` | Kills the `7-highlander` process with `SIGKILL` |
