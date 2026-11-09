@@ -14,3 +14,4 @@ Shell scripts covering Linux processes, PIDs and signals.
 | `7-highlander` | Displays `To infinity and beyond` indefinitely and `I am invincible!!!` when receiving `SIGTERM` |
 | `67-stop_me_if_you_can` | Sends `SIGTERM` to the `7-highlander` process |
 | `8-beheaded_process` | Kills the `7-highlander` process with `SIGKILL` |
+| `10-process_and_pid_file` | Writes its PID to `/var/run/myscript.pid`, loops indefinitely and handles `SIGTERM`, `SIGINT` and `SIGQUIT` |
