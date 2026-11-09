@@ -15,3 +15,5 @@ Shell scripts covering Linux processes, PIDs and signals.
 | `67-stop_me_if_you_can` | Sends `SIGTERM` to the `7-highlander` process |
 | `8-beheaded_process` | Kills the `7-highlander` process with `SIGKILL` |
 | `10-process_and_pid_file` | Writes its PID to `/var/run/myscript.pid`, loops indefinitely and handles `SIGTERM`, `SIGINT` and `SIGQUIT` |
+| `manage_my_process` | Indefinitely writes `I am alive!` to `/tmp/my_process`, pausing 2 seconds between each message |
+| `11-manage_my_process` | Init script that starts, stops and restarts `manage_my_process` |
